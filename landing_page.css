@@ -1,30 +1,11 @@
+body {
+  background-image:url(sports_fan_two.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*LANDING PAGE INFO BOX*/
-#landing-info{
-  height: 403px;
-  border-radius: 5px;
-}
-
-#landing-info h1{
-  margin-top: 0px;
-  padding-top: 25px;
-  padding-left: 0px;
-  color: #ce3e3c;
-  font-size: 44px;
-  font-weight: bold;
-}
-
-#landing-info h2{
-  margin-top: 0px;
-  padding-top: 50px;
-  padding-left: 50px;
-  font-size: 21px;
-  font-weight: bold;
-}
-
-#landing-info iframe{
-  margin-left: 16px;
-  border: solid 1px #ce3c3e;
-}
+.jumbotron h1
 
 /*LANDING PAGE SIGN IN BOX*/
 #signin-box{
@@ -33,9 +14,21 @@
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  margin-top: 82px;
+  margin-top: 55px;
   margin-bottom: 5px;
   border-radius: 5px;
+  border: solid 3px black;
+}
+
+#signin-header {
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  margin-top: 5px;
+  border-bottom: solid 1px #858282;
+  font-size: 20px;
+  color: #ce3c3e;
+
 }
 
 #remember-me{
@@ -52,7 +45,7 @@
 /*LANDING PAGE SIGN UP BOX*/
 #signup-box{
   float: right;
-  background-color: #dde1e6;
+  background-color: #dde1e6 ;
   padding-top: 5px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -60,6 +53,8 @@
   margin-top: 5px;
   border-radius: 5px;
   color: #ce3c3e;
+  border: solid 3px black;
+
 }
 
 #signup{
@@ -83,3 +78,6 @@
 .form-control{
   margin: 5px auto;
 }
+
+
+
