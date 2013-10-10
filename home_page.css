@@ -1,0 +1,78 @@
+#trending-games-title{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: solid 1px black;
+}
+
+.clearfix{
+  clear:both;
+}
+
+.dashboard-container{
+  background-color: #dde1e6;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 82px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  clear: both;
+}
+
+
+.mini-profile-username h1{
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 319px;
+  margin-bottom: 10px;
+}
+
+.mini-profile-picture{
+  height: 32px;
+  width: 32px;
+  background-color: black;
+  margin-left: 10px;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand{
+  margin-bottom: 1px;
+}
+.glyphicon{
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+
+.mini-pic-profile-container {
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.mini-profile-call:hover, .mini-profile-score:hover {
+  text-decoration: none;
+}
+
+.mini-profile-call{
+  color: black;
+  font-size: 16px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+ .mini-profile-score{
+  color: black;
+  font-size: 16px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 100px;
+ }
+
+ .trending-games{
+  font-size: 16px;
+ }
+
+
