@@ -5,7 +5,30 @@ body {
 }
 
 /*LANDING PAGE INFO BOX*/
-.jumbotron h1
+.jumbotron h1 {
+  font-size: 45px;
+  color: white;
+}
+
+#title {
+  text-decoration: bold;
+  color: #ce3c3e;
+}
+
+.jumbotron{
+  background: none;
+  padding-top: 0px;
+  margin-top: 55px;
+}
+
+#welcome-container {
+  text-align: center;
+  background-color: rgba(213, 218, 224, 0.2);
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+
 
 /*LANDING PAGE SIGN IN BOX*/
 #signin-box{
