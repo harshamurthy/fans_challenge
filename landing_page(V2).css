@@ -1,0 +1,139 @@
+/*LANDING PAGE SIGN IN BOX*/
+.form-signin{
+  background-color: #dde1e6;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 82px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#remember-me{
+  margin-right: 2.5px;
+  color: #858282;
+  font-size: 12px;
+}
+
+#forgot-password{
+  margin-left: 2.5px;
+  font-size: 12px;
+}
+
+/*NAVBAR*/
+.navbar-brand{
+  margin-bottom: 1px;
+}
+
+.glyphicon{
+  margin-right: 5px;
+  margin-bottom: 1px;
+}
+
+.form-signin{
+  height: 100px;
+  width: 300px;
+}
+
+body{
+  background: url(winner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#landing-info h1{
+  margin-top: 25px;
+  text-align: center;
+  color: #ce3e3c;
+  font-size: 44px;
+}
+
+#pop-video{
+  position: relative;
+  cursor: pointer;
+  width: 217px;
+  height: 217px;
+  display: block;
+  background: url(play.png) no-repeat;
+  background-position: 0 0;
+}
+
+#pop-video span{
+  width: 217px;
+  height: 217px;
+  background: url(play.png) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+iframe{
+  width: 854px;
+  height: 480px;
+}
+
+body .modal-body{
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+#tool-video{
+  z-index: 20;
+  position: relative;
+  padding: 15px 0;
+  line-height: 2.4;
+  width: 126px;
+  height: 26px;
+  display: block;
+  color: #fff;
+  margin: 0px auto 0;
+  background-position: 0 100%;
+}
+
+#tool-video span{
+  z-index: 2;
+  padding: 15px 0;
+  width: 126px;
+  height: 26px;
+  display: block;
+  color: #fff;
+  background: url(tooltip.png) no-repeat;
+  background-position: 0 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#overlay_form {
+  display: none;
+  border-radius: 1px;
+  border: 1px solid gray;
+  padding: 10px;
+  background: #fafafa;
+  width: 800px;
+  background-color: #efefef;
+  box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+
+.video p strong{
+  opacity: 0.6;
+  z-index: 20;
+  position: absolute;
+  top: 21px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.video{
+  cursor: pointer;
+  font-size: 13px;
+  width: 217px;
+  margin: 74px auto 0;
+}
