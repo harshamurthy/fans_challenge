@@ -1,6 +1,25 @@
+<<<<<<< HEAD
 /*NAVBAR*/
 .navbar-brand{
   margin-bottom: 1px;
+=======
+/*SPORTS FEED*/
+#sports-feed {
+  margin-top: 0px;
+  background: #dde1e6;
+}
+
+.sports-feed-title {
+  margin-top: 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+#trending-games-title{
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: solid 1px black;
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
 }
 
 .glyphicon{
@@ -25,10 +44,19 @@
   clear:both;
 }
 
+<<<<<<< HEAD
 /*MINI-PROFILE*/
 .mini-pic-profile-container {
   border-bottom: 1px solid black;
   margin-bottom: 5px;
+=======
+.mini-profile-username h1{
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 265px;
+  margin-bottom: 10px;
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
 }
 
 .mini-profile-picture{
@@ -53,6 +81,10 @@
   font-size: 16px;
   float: left;
   margin-top: 15px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
 }
 
  .mini-profile-score{
@@ -60,6 +92,11 @@
   font-size: 16px;
   float: right;
   margin-top: 15px;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
  }
 
 .mini-profile-call:hover, .mini-profile-score:hover{
@@ -71,6 +108,7 @@
   font-size: 16px;
  }
 
+<<<<<<< HEAD
 #trending-title{
   padding-bottom: 5px;
   margin-bottom: 5px;
@@ -98,17 +136,45 @@ thead {
 
 th {
   padding-right: 5px;
+=======
+/*TABLE*/
+
+th {
+  padding-right: 5px;
+}
+
+thead {
+  border-bottom: 1px solid black;
+}
+
+/*tr:nth-child(even) {
+  background-color: #d3d3d3;
+
+}
+
+
+tr:nth-child(odd) {
+  background-color: white;
+}*/
+
+td {
+  padding-bottom: 5px;
+  padding-top: 5px;
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
 }
 
 tr:hover td {
   background-color: #ce3c3e; color: #000;
 }
 
+<<<<<<< HEAD
 td {
   padding-bottom: 5px;
   padding-top: 5px;
 }
 
+=======
+>>>>>>> 80e5417ce174936991f80ec89498847b0d1d6edf
 .schedule a {
   text-decoration: none;
   color: black;
