@@ -5,6 +5,9 @@
     <title>Fan's Challenge</title>
     <link rel='stylesheet' type='text/css' href='landing_page(V2).css'>
     <link rel='stylesheet' type='bootstrap' href='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alike' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Michroma|Alike' rel='stylesheet' type='text/css'>
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
     <script type='text/javascript' src='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js'></script>
   </head>
@@ -35,15 +38,34 @@
       <div class='content'>
         <div class='col-lg-12'>
           <div id='landing-info'>
-            <h1>Sports Fans Need a Voice</h1>
+            <h1>Ref are you serious?</h1>
+            <h3>Welcome to <span id='the-fans-challenge-title'>The Fan's Challenge.</span> The reliable resource for sports officiating.</h3>
             <div class='video'>
-              <!-- TRIGGER TO VIDEO -->
               <a data-toggle='modal' href='#myModal' class="video" id="pop-video"><span style="display: none;"></span></a>
-              <!-- MODAL -->
               <div class='modal fade' id='myModal' tabindex='-1' role='dialog' aria-labelledby='myModalLabel' aria-hidden='true'>
-                  <div class='modal-body'>
-                   <iframe src="http://player.vimeo.com/video/76623034?title=0&amp;byline=0&amp;portrait=0&amp;color=ce3c3e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <div class='modal-body'>
+                  <iframe src="http://player.vimeo.com/video/76623034?title=0&amp;byline=0&amp;portrait=0&amp;color=ce3c3e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+            <a data-toggle="modal" href="#format">
+              <div class='claim-your-voice-sign-up'>
+                <button id='sign-up-button' class= 'btn btn-danger'>Claim Your Voice</button>
+              </div>
+            </a>
+            <div class="modal fade" id="format" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div id='signup-box' class='col-lg-12'>
+                    <h2 id='signup-header'>Sign Up</h2>
+                    <form class='form-signup'>
+                      <input type='text' class='form-control' placeholder='Full Name'>
+                      <input type='text' class='form-control' placeholder='Email'>
+                      <input type='password' class='form-control' placeholder='Password'>
+                      <button class='btn btn-danger btn-block' type='submit'>Sign Up</button>
+                    </form>
                   </div>
+                </div>
               </div>
             </div>
           </div>
