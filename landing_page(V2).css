@@ -8,6 +8,10 @@
 }
 
 /*NAVBAR*/
+.navbar{
+  margin-bottom: 0px !important;
+}
+
 .dropdown-menu{
   height: 50px;
   width: 300px;
@@ -147,7 +151,7 @@ iframe{
 #sign-up-button {
  height: 75px;
  width: 350px;
- margin: 1%;
+ margin: 2.5%;
  padding: 0px auto;
 font-size: 32px;
 }
